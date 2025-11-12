@@ -23,7 +23,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="panelPrincipal" alignment="0" max="32767" attributes="0"/>
+          <Component id="panelPrincipal" alignment="0" pref="1543" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -63,7 +63,7 @@
                       <Component id="panelAcciones" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Component id="panelProductos" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="51" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -119,24 +119,80 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lblProductos" alignment="0" pref="1081" max="32767" attributes="0"/>
+                  <Component id="lblProductos" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="lblEnsalada" max="32767" attributes="0"/>
-                          <Component id="btnEnsalada" pref="110" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblDescripcionPlatos" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="348" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="btnCafe" pref="110" max="32767" attributes="0"/>
+                                      <Component id="lblCafe" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="btnPizza" max="32767" attributes="0"/>
+                                      <Component id="lblPizza" min="-2" pref="110" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="lblEnsalada" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="btnEnsalada" alignment="0" pref="110" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnQueso" max="32767" attributes="0"/>
+                                          <Component id="lblQueso" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnSalami" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblSalami" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnPeperoni" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblPeperoni" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnTomate" pref="110" max="32767" attributes="0"/>
+                                          <Component id="lblTomate" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnVinagreta" pref="110" max="32767" attributes="0"/>
+                                          <Component id="lblVinagreta" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnPollo" pref="110" max="32767" attributes="0"/>
+                                          <Component id="lblPollo" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="348" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnAzucar" pref="110" max="32767" attributes="0"/>
+                                          <Component id="lblAzucar" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnCrema" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblCrema" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnHamburguesa" pref="110" max="32767" attributes="0"/>
-                          <Component id="lblHamburguesa" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnPapas" pref="110" max="32767" attributes="0"/>
-                          <Component id="lblPapas" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -144,21 +200,82 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="lblProductos" min="-2" pref="35" max="-2" attributes="0"/>
-                      <EmptySpace min="69" pref="69" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btnEnsalada" alignment="3" min="-2" pref="110" max="-2" attributes="0"/>
-                              <Component id="btnHamburguesa" alignment="3" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="lblDescripcionPlatos" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnCafe" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <Component id="btnAzucar" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblCafe" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblAzucar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="btnCrema" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="lblCrema" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="btnEnsalada" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          <Component id="lblEnsalada" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="btnTomate" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          <Component id="lblTomate" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnVinagreta" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <Component id="btnPollo" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblVinagreta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblPollo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnPizza" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <Component id="btnQueso" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="lblPizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblQueso" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="btnSalami" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                      <Component id="lblSalami" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
-                          <Component id="btnPapas" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="btnPeperoni" min="-2" pref="110" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="lblPeperoni" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblEnsalada" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblHamburguesa" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblPapas" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="0" pref="481" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="91" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -182,11 +299,8 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnEnsalada">
               <Properties>
-                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                  <Dimension value="[72, 7]"/>
-                </Property>
-                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                  <Dimension value="[72, 7]"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -200,29 +314,176 @@
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="btnHamburguesa">
+            <Component class="javax.swing.JButton" name="btnPizza">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHamburguesaActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPizzaActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="lblHamburguesa">
+            <Component class="javax.swing.JLabel" name="lblPizza">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="btnPapas">
+            <Component class="javax.swing.JButton" name="btnQueso">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jButton"/>
               </AccessibilityProperties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPapasActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuesoActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="lblPapas">
+            <Component class="javax.swing.JLabel" name="lblQueso">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnCafe">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+                <Property name="opaque" type="boolean" value="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCafeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCafe">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAzucar">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAzucarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblAzucar">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnTomate">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTomateActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTomate">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnVinagreta">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVinagretaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblVinagreta">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnPollo">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPolloActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblPollo">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnCrema">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCremaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCrema">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnSalami">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalamiActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblSalami">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnPeperoni">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="fa" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPeperoniActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblPeperoni">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcionPlatos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="PLATO PRINCIPAL                     ADICIONALES"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -232,23 +493,20 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="panelDetalle" max="32767" attributes="0"/>
-                  <Component id="panelBotones" alignment="0" max="32767" attributes="0"/>
+                  <Component id="panelFactura" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="panelDetalle" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="panelBotones" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="51" max="32767" attributes="0"/>
+                      <Component id="panelFactura" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="54" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="panelDetalle">
+            <Container class="javax.swing.JPanel" name="panelFactura">
               <Properties>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -261,7 +519,13 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="lblDetalle" max="32767" attributes="0"/>
-                      <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jPanel1" max="32767" attributes="0"/>
+                              <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -269,7 +533,9 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="lblDetalle" min="-2" pref="34" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane1" min="-2" pref="352" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="612" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -294,354 +560,61 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="txtDetalle">
+                    <Component class="javax.swing.JTable" name="tblFactura">
                       <Properties>
-                        <Property name="columns" type="int" value="20"/>
-                        <Property name="rows" type="int" value="5"/>
-                        <Property name="enabled" type="boolean" value="false"/>
-                        <Property name="selectionColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="0" red="0" type="rgb"/>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="4" rowCount="4">
+                            <Column editable="true" title="Producto" type="java.lang.Object"/>
+                            <Column editable="true" title="Adicional" type="java.lang.Object"/>
+                            <Column editable="true" title="Precio" type="java.lang.Object"/>
+                            <Column editable="true" title="Subtotal" type="java.lang.Object"/>
+                          </Table>
                         </Property>
                       </Properties>
                     </Component>
                   </SubComponents>
                 </Container>
-              </SubComponents>
-            </Container>
-            <Container class="javax.swing.JPanel" name="panelBotones">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                </Property>
-                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                    <LineBorder/>
-                  </Border>
-                </Property>
-              </Properties>
+                <Container class="javax.swing.JPanel" name="jPanel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="99" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
 
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="btnAccion3" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="btnAccion4" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="btnAccion1" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="btnAccion2" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="btnAccion5" min="-2" max="-2" attributes="0"/>
-                                              <Component id="btnAceptar" min="-2" pref="100" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="btnCancelar" min="-2" pref="100" max="-2" attributes="0"/>
-                                              <Component id="btnAccion6" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="btn4" min="-2" pref="40" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btn5" min="-2" pref="40" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btn6" min="-2" pref="40" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="btn1" min="-2" pref="40" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btn2" min="-2" pref="40" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btn3" min="-2" pref="40" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                  <Component id="btnAc" min="-2" pref="64" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnBorrar" min="-2" pref="64" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="btn7" max="32767" attributes="0"/>
-                                                      <Component id="btn0" max="32767" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Group type="102" attributes="0">
-                                                          <Component id="btn8" min="-2" pref="40" max="-2" attributes="0"/>
-                                                          <EmptySpace max="-2" attributes="0"/>
-                                                          <Component id="btn9" min="-2" pref="40" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Component id="btnEnter" max="32767" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Component id="txtCantidad" min="-2" pref="216" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
-                              </Group>
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="192" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTextField1" min="-2" pref="145" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Component id="txtCantidad" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btn1" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <Component id="btn2" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <Component id="btn3" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btn4" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <Component id="btn5" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <Component id="btn6" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btn7" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <Component id="btn8" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                      <Component id="btn9" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btnAccion1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="btnAccion2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="btnAccion4" min="-2" max="-2" attributes="0"/>
-                                      <Component id="btnAccion3" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btnAccion5" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="btnAccion6" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btn0" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                                  <Component id="btnEnter" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                                  <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnAceptar" alignment="0" min="-2" pref="32" max="-2" attributes="0"/>
-                                  <Component id="btnCancelar" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btnBorrar" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                              <Component id="btnAc" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace pref="34" max="32767" attributes="0"/>
                       </Group>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-              <SubComponents>
-                <Component class="javax.swing.JButton" name="btn1">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="1"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn1ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="2"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn2ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn3">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="3"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn3ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn4">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="4"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn4ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn5">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="5"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn5ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn6">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="6"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn6ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn7">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="7"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn7ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn8">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="8"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn8ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn9">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="9"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn9ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btn0">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="0"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn0ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAccion1">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Acci&#xf3;n 1"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAccion2">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Acci&#xf3;n 2"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAccion3">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Acci&#xf3;n 3"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAccion4">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Acci&#xf3;n 4"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAccion5">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Acci&#xf3;n 5"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAccion6">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Accion 6"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAceptar">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="99" green="ff" red="99" type="rgb"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="ACEPTAR"/>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnCancelar">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="99" green="99" red="ff" type="rgb"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="CANCELAR"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JTextField" name="txtCantidad">
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCantidadActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnBorrar">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="&lt;"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBorrarActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnAc">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="10" style="0"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="AC"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAcActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="javax.swing.JButton" name="btnEnter">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Enter"/>
-                    <Property name="toolTipText" type="java.lang.String" value=""/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEnterActionPerformed"/>
-                  </Events>
-                </Component>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="PRECIO: "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField1">
+                    </Component>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
           </SubComponents>

@@ -1,6 +1,6 @@
-package saavedraj_martinezm_observerpractica.controlador;
+package saavedraj_martinezm_decorador.controlador;
 
-import saavedraj_martinezm_observerpractica.vista.OrdenVista;
+import saavedraj_martinezm_decorador.vista.OrdenVista;
 
 public class OrdenController {
     private final OrdenVista oV;

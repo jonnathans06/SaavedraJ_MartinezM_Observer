@@ -6,11 +6,16 @@ import java.net.URL;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
+import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 
 public class OrdenVista extends javax.swing.JFrame {
+    
+    String adiCafe = "";
+    String adiPizza = "";
+    String adiEnsalada = "";
     
     public OrdenVista() {
         initComponents();
@@ -143,6 +148,8 @@ public class OrdenVista extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         lblPrecio = new javax.swing.JLabel();
         txtPrecio = new javax.swing.JTextField();
+        btnAggProducto = new javax.swing.JButton();
+        btnFinOrden = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -199,6 +206,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblPizza.setText("jLabel1");
 
         btnQueso.setBackground(new java.awt.Color(255, 250, 243));
+        btnQueso.setEnabled(false);
         btnQueso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnQuesoActionPerformed(evt);
@@ -220,6 +228,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblCafe.setText("jLabel1");
 
         btnAzucar.setBackground(new java.awt.Color(255, 250, 243));
+        btnAzucar.setEnabled(false);
         btnAzucar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAzucarActionPerformed(evt);
@@ -230,6 +239,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblAzucar.setText("jLabel1");
 
         btnTomate.setBackground(new java.awt.Color(255, 250, 243));
+        btnTomate.setEnabled(false);
         btnTomate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTomateActionPerformed(evt);
@@ -240,6 +250,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblTomate.setText("jLabel1");
 
         btnVinagreta.setBackground(new java.awt.Color(255, 250, 243));
+        btnVinagreta.setEnabled(false);
         btnVinagreta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVinagretaActionPerformed(evt);
@@ -250,6 +261,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblVinagreta.setText("jLabel1");
 
         btnPollo.setBackground(new java.awt.Color(255, 250, 243));
+        btnPollo.setEnabled(false);
         btnPollo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPolloActionPerformed(evt);
@@ -260,6 +272,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblPollo.setText("jLabel1");
 
         btnCrema.setBackground(new java.awt.Color(255, 250, 243));
+        btnCrema.setEnabled(false);
         btnCrema.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCremaActionPerformed(evt);
@@ -270,6 +283,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblCrema.setText("jLabel1");
 
         btnSalami.setBackground(new java.awt.Color(255, 250, 243));
+        btnSalami.setEnabled(false);
         btnSalami.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSalamiActionPerformed(evt);
@@ -280,6 +294,7 @@ public class OrdenVista extends javax.swing.JFrame {
         lblSalami.setText("jLabel1");
 
         btnPeperoni.setBackground(new java.awt.Color(255, 250, 243));
+        btnPeperoni.setEnabled(false);
         btnPeperoni.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPeperoniActionPerformed(evt);
@@ -298,7 +313,7 @@ public class OrdenVista extends javax.swing.JFrame {
             panelProductosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(lblProductos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(panelProductosLayout.createSequentialGroup()
-                .addGap(159, 159, 159)
+                .addGap(150, 150, 150)
                 .addGroup(panelProductosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelProductosLayout.createSequentialGroup()
                         .addComponent(lblDescripcionPlatos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -438,18 +453,31 @@ public class OrdenVista extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 255));
 
-        lblPrecio.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblPrecio.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblPrecio.setText("PRECIO: ");
+
+        btnAggProducto.setText("Agg. Orden");
+        btnAggProducto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAggProductoActionPerformed(evt);
+            }
+        });
+
+        btnFinOrden.setText("Fin. Orden");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(lblPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnFinOrden, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAggProducto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(15, 15, 15))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -458,6 +486,12 @@ public class OrdenVista extends javax.swing.JFrame {
                     .addComponent(lblPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btnAggProducto)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addComponent(btnFinOrden)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout panelFacturaLayout = new javax.swing.GroupLayout(panelFactura);
@@ -476,9 +510,10 @@ public class OrdenVista extends javax.swing.JFrame {
             .addGroup(panelFacturaLayout.createSequentialGroup()
                 .addComponent(lblDetalle, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 612, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 455, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 132, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout panelAccionesLayout = new javax.swing.GroupLayout(panelAcciones);
@@ -491,7 +526,7 @@ public class OrdenVista extends javax.swing.JFrame {
             panelAccionesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelAccionesLayout.createSequentialGroup()
                 .addComponent(panelFactura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout panelPrincipalLayout = new javax.swing.GroupLayout(panelPrincipal);
@@ -513,7 +548,7 @@ public class OrdenVista extends javax.swing.JFrame {
                     .addComponent(panelAcciones, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(panelPrincipalLayout.createSequentialGroup()
                         .addComponent(panelProductos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 51, Short.MAX_VALUE))))
+                        .addGap(0, 52, Short.MAX_VALUE))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -575,12 +610,114 @@ public class OrdenVista extends javax.swing.JFrame {
     private void btnPeperoniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPeperoniActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnPeperoniActionPerformed
-   
+
+    private void btnAggProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAggProductoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnAggProductoActionPerformed
+
+    public JButton getBtnAzucar() {
+        return btnAzucar;
+    }
+
+    public void setBtnAzucar(JButton btnAzucar) {
+        this.btnAzucar = btnAzucar;
+    }
+
+    public JButton getBtnCafe() {
+        return btnCafe;
+    }
+
+    public void setBtnCafe(JButton btnCafe) {
+        this.btnCafe = btnCafe;
+    }
+
+    public JButton getBtnCrema() {
+        return btnCrema;
+    }
+
+    public void setBtnCrema(JButton btnCrema) {
+        this.btnCrema = btnCrema;
+    }
+
+    public JButton getBtnEnsalada() {
+        return btnEnsalada;
+    }
+
+    public void setBtnEnsalada(JButton btnEnsalada) {
+        this.btnEnsalada = btnEnsalada;
+    }
+
+    public JButton getBtnPeperoni() {
+        return btnPeperoni;
+    }
+
+    public void setBtnPeperoni(JButton btnPeperoni) {
+        this.btnPeperoni = btnPeperoni;
+    }
+
+    public JButton getBtnPizza() {
+        return btnPizza;
+    }
+
+    public void setBtnPizza(JButton btnPizza) {
+        this.btnPizza = btnPizza;
+    }
+
+    public JButton getBtnPollo() {
+        return btnPollo;
+    }
+
+    public void setBtnPollo(JButton btnPollo) {
+        this.btnPollo = btnPollo;
+    }
+
+    public JButton getBtnQueso() {
+        return btnQueso;
+    }
+
+    public void setBtnQueso(JButton btnQueso) {
+        this.btnQueso = btnQueso;
+    }
+
+    public JButton getBtnSalami() {
+        return btnSalami;
+    }
+
+    public void setBtnSalami(JButton btnSalami) {
+        this.btnSalami = btnSalami;
+    }
+
+    public JButton getBtnVinagreta() {
+        return btnVinagreta;
+    }
+
+    public void setBtnVinagreta(JButton btnVinagreta) {
+        this.btnVinagreta = btnVinagreta;
+    }
+
+    public JTable getTblFactura() {
+        return tblFactura;
+    }
+
+    public void setTblFactura(JTable tblFactura) {
+        this.tblFactura = tblFactura;
+    }
+
+    public JTextField getTxtPrecio() {
+        return txtPrecio;
+    }
+
+    public void setTxtPrecio(JTextField txtPrecio) {
+        this.txtPrecio = txtPrecio;
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnAggProducto;
     private javax.swing.JButton btnAzucar;
     private javax.swing.JButton btnCafe;
     private javax.swing.JButton btnCrema;
     private javax.swing.JButton btnEnsalada;
+    private javax.swing.JButton btnFinOrden;
     private javax.swing.JButton btnPeperoni;
     private javax.swing.JButton btnPizza;
     private javax.swing.JButton btnPollo;
